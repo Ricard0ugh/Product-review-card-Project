@@ -81,7 +81,6 @@ h2 {
 }
 
 .price {
-    margin-top: 0;
     display: flex;
     align-items: center;
     gap: 1.5rem;
@@ -92,8 +91,7 @@ h2 {
     font-weight: 700;
     font-family: var(--fraunces);
     font-size: 2rem;
-    
-
+    margin-top: 1.5rem;
 }
 
 #old-price {
@@ -101,7 +99,7 @@ h2 {
     font-family: var(--montserrat);
     font-weight: 500;
     font-size: 12px;
-    margin-bottom: 0.5rem;
+    margin-top: 0;
 }
 
 .checkout {
@@ -118,6 +116,12 @@ h2 {
     color: var(--white);
     font-family: var(--montserrat);
     font-weight: 500;
+}
+
+.checkout:hover {
+    background-color: var(--green700);
+    transition: background-color 0.7s ease;
+    cursor: pointer;
 }
 /*
 Font size (paragraph): 14px
